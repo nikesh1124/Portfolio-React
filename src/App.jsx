@@ -2,6 +2,8 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Tech from "./components/Tech";
+import Experiance from "./components/Experiance";
 function App() {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased 
@@ -14,6 +16,8 @@ function App() {
         <Navbar></Navbar>
         <Hero></Hero>
         <About></About>
+        <Tech></Tech>
+        <Experiance></Experiance>
         </div>
         
     </div>
